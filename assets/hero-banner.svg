@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Muhammad Aziq Rauf — AI/ML Engineer">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="80%">
+      <stop offset="0%" stop-color="#121822"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </radialGradient>
+    <linearGradient id="scanGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2EE6FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6FF3FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2EE6FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="1200" height="280" rx="16" fill="url(#bgGlow)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="278.5" rx="15.25" fill="none" stroke="#1B2330" stroke-width="1.5"/>
+
+  <!-- corner brackets (viewfinder / bounding-box framing) -->
+  <g stroke="#2EE6FF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M26,58 L26,26 L58,26"/>
+    <path d="M1142,26 L1174,26 L1174,58"/>
+    <path d="M1174,222 L1174,254 L1142,254"/>
+    <path d="M58,254 L26,254 L26,222"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- title block -->
+  <text x="600" y="135" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,monospace" font-size="42" font-weight="700" fill="#E6EDF3" letter-spacing="1.5">MUHAMMAD AZIQ RAUF</text>
+  <text x="600" y="166" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,monospace" font-size="16" font-weight="500" fill="#2EE6FF" letter-spacing="5">AI / ML ENGINEER</text>
+  <line x1="500" y1="180" x2="700" y2="180" stroke="#1EA8C4" stroke-width="1" opacity="0.6"/>
+
+  <!-- floating HUD tag: top-left -->
+  <g font-family="'JetBrains Mono',Menlo,monospace" font-size="13" fill="#9FB1BD">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+      <rect x="56" y="48" width="196" height="30" rx="5" fill="#10151D" stroke="#1A5A68" stroke-width="1"/>
+      <circle cx="73" cy="63" r="3.5" fill="#2EE6FF"/>
+      <text x="84" y="67">TRACKING: ACTIVE</text>
+    </g>
+
+    <!-- floating HUD tag: top-right -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="9s" begin="2.6s" repeatCount="indefinite"/>
+      <rect x="948" y="48" width="196" height="30" rx="5" fill="#10151D" stroke="#1A5A68" stroke-width="1"/>
+      <circle cx="965" cy="63" r="3.5" fill="#2EE6FF"/>
+      <text x="976" y="67">MODEL: LoRA-TUNED</text>
+    </g>
+
+    <!-- floating HUD tag: bottom-left -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="9s" begin="5.2s" repeatCount="indefinite"/>
+      <rect x="56" y="200" width="196" height="30" rx="5" fill="#10151D" stroke="#1A5A68" stroke-width="1"/>
+      <circle cx="73" cy="215" r="3.5" fill="#2EE6FF"/>
+      <text x="84" y="219">INFER: 47 FPS @ 1080p</text>
+    </g>
+
+    <!-- system status: bottom-right (steady pulse, not staggered) -->
+    <g>
+      <rect x="948" y="200" width="196" height="30" rx="5" fill="#10151D" stroke="#3D3320" stroke-width="1"/>
+      <circle cx="965" cy="215" r="3.5" fill="#FFC857">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="976" y="219" fill="#C9B98A">SYSTEM: ONLINE</text>
+    </g>
+  </g>
+
+  <!-- sweeping scan glow, rendered last so it glides over everything -->
+  <rect x="-100" y="0" width="100" height="280" fill="url(#scanGlow)" filter="url(#softBlur)">
+    <animate attributeName="x" values="-100;1200;-100" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
