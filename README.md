@@ -102,21 +102,60 @@ $ cat experience.log
 
 ### `[ SYS.PROJECTS ]`
 
-- **QACE** — multimodal interview coach for mock interviews  
-  [`→ live`](https://qandace.vercel.app) · [`→ code`](https://github.com/aaziy/qace-interview-coach)  
-  <img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LLaMA_3.1-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/LoRA-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/React-0B0E14?style=flat-square&logo=react&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Whisper-0B0E14?style=flat-square&color=0B0E14" alt="" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Sentinel Support** — RAG-powered customer support assistant  
-  [`→ live`](https://sentinel-support.vercel.app) · [`→ code`](https://github.com/aaziy/sentinel-support)  
-  <img src="https://img.shields.io/badge/Next.js-0B0E14?style=flat-square&logo=nextdotjs&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/TypeScript-0B0E14?style=flat-square&logo=typescript&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LangChain-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Pinecone-0B0E14?style=flat-square&color=0B0E14" alt="" />
+#### `[ PRJ.QACE ]`
+**Multimodal AI Interview Coach**
 
-- **AegisVision** — real-time traffic monitoring and tracking  
-  [`→ live`](https://huggingface.co/spaces/aaziy/AegisVision) · [`→ code`](https://github.com/aaziy/aegisvision)  
-  <img src="https://img.shields.io/badge/YOLO26n-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ONNX-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ByteTrack-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/CoreML-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
+Watches, listens, and reads your interview back to you — facial-expression recognition, Whisper transcription, and a LoRA fine-tuned LLaMA 3.1 running in parallel. Async inference keeps all three models live without the UI ever stuttering.
 
-- **PhoenixML** — drift-aware fraud detection MLOps pipeline  
-  [`→ code`](https://github.com/aaziy/phoenixml)  
-  <img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/MLflow-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Evidently-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
+<img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LLaMA_3.1-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/LoRA-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/React-0B0E14?style=flat-square&logo=react&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Whisper-0B0E14?style=flat-square&color=0B0E14" alt="" />
+
+[`→ live`](https://qandace.vercel.app)  [`→ code`](https://github.com/aaziy/qace-interview-coach)
+
+</td>
+<td width="50%" valign="top">
+
+#### `[ PRJ.SENTINEL_SUPPORT ]`
+**AI Customer Support Platform**
+
+A user help center and an admin command center sharing one brain: a LangChain + Pinecone RAG pipeline that drafts contextual replies on its own, and knows exactly when to escalate to a human.
+
+<img src="https://img.shields.io/badge/Next.js-0B0E14?style=flat-square&logo=nextdotjs&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/TypeScript-0B0E14?style=flat-square&logo=typescript&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LangChain-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Pinecone-0B0E14?style=flat-square&color=0B0E14" alt="" />
+
+[`→ live`](https://sentinel-support.vercel.app)  [`→ code`](https://github.com/aaziy/sentinel-support)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### `[ PRJ.AEGISVISION ]`
+**Real-Time Traffic Monitoring**
+
+Benchmarked YOLO26n against RT-DETRv2 and shipped the winner: 47 FPS at 1080p on Apple Silicon via the CoreML execution provider, exported to a single ONNX model that runs unmodified on Mac or Linux/ARM64. ByteTrack handles vehicle tracking; a bidirectional line-crossing counter keeps per-class tallies checked against hand-labeled ground truth.
+
+<img src="https://img.shields.io/badge/YOLO26n-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ONNX-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ByteTrack-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/CoreML-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
+
+[`→ live`](https://huggingface.co/spaces/aaziy/AegisVision)  [`→ code`](https://github.com/aaziy/aegisvision)
+
+</td>
+<td width="50%" valign="top">
+
+#### `[ PRJ.PHOENIXML ]`
+**Automated MLOps for Fraud Detection**
+
+A fraud-detection model (0.84 PR-AUC on a heavily imbalanced dataset) wrapped in a retraining pipeline that watches its own drift with Evidently, auto-promotes to MLflow Staging, and waits for a human nod before touching Production. Shipped as a Dockerized FastAPI service on GHCR, backed by 36 passing tests.
+
+<img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/MLflow-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Evidently-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
+
+[`→ code`](https://github.com/aaziy/phoenixml) <!-- confirm this matches your actual repo slug -->
+
+</td>
+</tr>
+</table>
 
 <br/>
 
