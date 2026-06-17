@@ -113,7 +113,7 @@ Watches, listens, and reads your interview back to you — facial-expression rec
 
 <img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LLaMA_3.1-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/LoRA-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/React-0B0E14?style=flat-square&logo=react&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Whisper-0B0E14?style=flat-square&color=0B0E14" alt="" />
 
-[`→ code`](https://github.com/aaziy/qace-interview-coach) <!-- confirm this matches your actual repo slug -->
+[`→ live`](https://qandace.vercel.app)  [`→ code`](https://github.com/aaziy/qace-interview-coach)
 
 </td>
 <td width="50%" valign="top">
@@ -125,7 +125,7 @@ A user help center and an admin command center sharing one brain: a LangChain + 
 
 <img src="https://img.shields.io/badge/Next.js-0B0E14?style=flat-square&logo=nextdotjs&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/TypeScript-0B0E14?style=flat-square&logo=typescript&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/LangChain-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Pinecone-0B0E14?style=flat-square&color=0B0E14" alt="" />
 
-[`→ code`](https://github.com/aaziy/sentinel-support) <!-- confirm this matches your actual repo slug -->
+[`→ live`](https://sentinel-support.vercel.app)  [`→ code`](https://github.com/aaziy/sentinel-support)
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Benchmarked YOLO26n against RT-DETRv2 and shipped the winner: 47 FPS at 1080p on
 
 <img src="https://img.shields.io/badge/YOLO26n-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ONNX-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/ByteTrack-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/CoreML-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
 
-[`→ code`](https://github.com/aaziy/aegisvision) <!-- confirm this matches your actual repo slug -->
+[`→ live`](https://huggingface.co/spaces/aaziy/AegisVision)  [`→ code`](https://github.com/aaziy/aegisvision)
 
 </td>
 <td width="50%" valign="top">
