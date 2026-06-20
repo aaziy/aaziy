@@ -1,25 +1,9 @@
-<!--
-  SETUP NOTES — invisible on the rendered page, only visible here in the source.
-  Delete this comment once everything below is live.
-
-  1. This file has to live in a repo named exactly `aaziy` (your username). If it doesn't
-     exist yet: create a new PUBLIC repo called `aaziy/aaziy` and tick "Add a README file".
-  2. Commit this README.md alongside the /assets and /.github/workflows folders, keeping the
-     same relative paths, so the hero banner and the snake workflow both resolve.
-  3. Open the repo's Actions tab and run "snake-contribution-graph" once manually (Run workflow
-     button) — it needs that first run to create the `output` branch before the SYS.COMMITS
-     image shows up. After that it refreshes itself every day on its own.
-  4. Swap the four `<!-- confirm repo slug -->` links under SYS.PROJECTS for your real repo
-     URLs, and drop in live-demo links if you have them.
-  5. SYS.ACTIVITY widgets can take a few hours to catch up on a brand-new repo — that's normal.
--->
-
 <div align="center">
 
-<img src="./assets/hero-banner.svg" width="100%" alt="Muhammad Aziq Rauf — AI/ML Engineer" />
+<img src="./assets/hero-banner.svg" width="100%" alt="Muhammad Aziq Rauf — Software Engineer specializing in AI/ML" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3500&pause=1200&color=2EE6FF&center=true&vCenter=true&random=false&width=900&lines=AI%2FML+Engineer+crafting+things+that+see%2C+hear+and+reason;Fine-tuning+LLaMA+3.1+with+LoRA;Shipping+real-time+computer+vision+at+47+FPS;Building+RAG+pipelines+that+know+when+to+escalate;Currently+debugging+yesterday%27s+confidence+scores" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3500&pause=1200&color=2EE6FF&center=true&vCenter=true&random=false&width=900&lines=Software+Engineer+%E2%80%94+building+systems+end+to+end;Specializing+in+AI%2FML%3A+LLMs%2C+Computer+Vision%2C+MLOps;Fine-tuning+LLaMA+3.1+with+LoRA;Shipping+real-time+computer+vision+at+47+FPS;Building+RAG+pipelines+that+know+when+to+escalate;Currently+debugging+yesterday%27s+confidence+scores" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,6 +12,12 @@
 <img src="https://img.shields.io/github/followers/aaziy?style=for-the-badge&color=2EE6FF&labelColor=0B0E14&logo=github&logoColor=2EE6FF&label=FOLLOWERS" alt="followers" />
 <img src="https://img.shields.io/badge/based%20in-Islamabad%2C%20Pakistan-2EE6FF?style=for-the-badge&labelColor=0B0E14" alt="location" />
 <img src="https://img.shields.io/badge/status-open%20to%20relocation-FFC857?style=for-the-badge&labelColor=0B0E14" alt="status" />
+
+<br/><br/>
+
+<a href="https://github.com/aaziy/aaziy/blob/main/resume/Muhammad-Aziq-Rauf-Resume.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/📄_VIEW_/_DOWNLOAD_RÉSUMÉ-FFC857?style=for-the-badge&labelColor=0B0E14" alt="view or download résumé" />
+</a>
 
 </div>
 
@@ -39,7 +29,7 @@
 $ whoami --verbose
 
 > USER.............. Muhammad Aziq Rauf
-> ROLE.............. AI/ML Engineer — LLMs · Computer Vision · MLOps
+> ROLE.............. Software Engineer specializing in AI/ML — LLMs · Computer Vision · MLOps
 > BASE.............. Islamabad, PK
 > EDU............... B.S. Software Engineering @ FAST-NUCES (2026)
 > AWARDS............ Top 5% nationally, HEC NSCT  ·  IBM AI Engineering + LLM Dev certified
@@ -151,7 +141,28 @@ A fraud-detection model (0.84 PR-AUC on a heavily imbalanced dataset) wrapped in
 
 <img src="https://img.shields.io/badge/Python-0B0E14?style=flat-square&logo=python&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/MLflow-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/FastAPI-0B0E14?style=flat-square&logo=fastapi&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/Evidently-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/Docker-0B0E14?style=flat-square&logo=docker&logoColor=2EE6FF" alt="" />
 
-[`→ code`](https://github.com/aaziy/phoenixml) <!-- confirm this matches your actual repo slug -->
+[`→ code`](https://github.com/aaziy/phoenixml)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+**Collaborative builds**
+
+<table>
+<tr>
+<td valign="top">
+
+#### `[ PRJ.ETHEREAL ]`
+**Decentralized Campus Rumor-Verification System**
+
+An anonymous, decentralized "truth engine" for campus rumors — verifies claims through blind authentication and reputation-weighted consensus, so no single party controls what counts as confirmed.
+
+<img src="https://img.shields.io/badge/Next.js-0B0E14?style=flat-square&logo=nextdotjs&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/TypeScript-0B0E14?style=flat-square&logo=typescript&logoColor=2EE6FF" alt="" /> <img src="https://img.shields.io/badge/GunDB-0B0E14?style=flat-square&color=0B0E14" alt="" /> <img src="https://img.shields.io/badge/P2P-0B0E14?style=flat-square&color=0B0E14" alt="" />
+
+[`→ code`](https://github.com/aaziy/Ethereal) · built with [`@exeNyx7`](https://github.com/exeNyx7) and [`@abdullahjamil42`](https://github.com/abdullahjamil42)
 
 </td>
 </tr>
@@ -179,7 +190,7 @@ $ cat achievements.log
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=aaziy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=2EE6FF&icon_color=2EE6FF&text_color=9FB1BD&ring_color=FFC857" height="165" alt="github stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaziy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=2EE6FF&text_color=9FB1BD" height="165" alt="top languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaziy&layout=compact&hide=html,css&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=2EE6FF&text_color=9FB1BD" height="165" alt="top languages" />
 
 <br/>
 
