@@ -1,13 +1,5 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" width="100%" alt="Muhammad Aziq Rauf — Software Engineer specializing in AI/ML" />
-
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3500&pause=1200&color=2EE6FF&center=true&vCenter=true&random=false&width=900&lines=Software+Engineer+%E2%80%94+building+systems+end+to+end;Specializing+in+AI%2FML%3A+LLMs%2C+Computer+Vision%2C+MLOps;Fine-tuning+LLaMA+3.1+with+LoRA;Shipping+real-time+computer+vision+at+47+FPS;Building+RAG+pipelines+that+know+when+to+escalate;Currently+debugging+yesterday%27s+confidence+scores" alt="Typing SVG" />
-</a>
-
-<br/>
-
 <img src="https://komarev.com/ghpvc/?username=aaziy&style=for-the-badge&color=2EE6FF&labelColor=0B0E14&label=PROFILE+VIEWS" alt="profile views" />
 <img src="https://img.shields.io/github/followers/aaziy?style=for-the-badge&color=2EE6FF&labelColor=0B0E14&logo=github&logoColor=2EE6FF&label=FOLLOWERS" alt="followers" />
 <img src="https://img.shields.io/badge/based%20in-Islamabad%2C%20Pakistan-2EE6FF?style=for-the-badge&labelColor=0B0E14" alt="location" />
