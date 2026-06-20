@@ -33,9 +33,7 @@ $ whoami --verbose
 > BASE.............. Islamabad, PK
 > EDU............... B.S. Software Engineering @ FAST-NUCES (2026)
 > AWARDS............ Top 5% nationally, HEC NSCT  ·  IBM AI Engineering + LLM Dev certified
-> RIG............... Apple M1 Max  ·  32-core GPU  ·  64GB unified memory  ·  used for local LoRA runs
 > CURRENTLY......... fine-tuning LLaMA 3.1, shipping RAG pipelines, occasionally reading about NPV for fun
-> NEXT_MOVE......... relocating to the Gulf (Bahrain) for an AI/ML engineering role
 > OFF_DUTY.......... gym six days a week, chess, rooftop BBQs, chasing mountain passes around Hunza & Naltar
 > UPTIME............ 22 years, mostly stable, occasional kernel panics
 ```
