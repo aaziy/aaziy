@@ -1,0 +1,60 @@
+name: profile-assets
+
+# Builds the generated images the README pulls from the `output` branch:
+#   github-snake.svg   contribution snake (Platane/snk), plus a -light variant
+#   profile-card.svg   telemetry card (.github/scripts/profile_card.py)
+# Both go out in a single push, because publishing to `output` replaces the
+# whole branch: two separate workflows would wipe each other's files.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # regenerates once a day
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate the telemetry card
+        id: card
+        continue-on-error: true
+        env:
+          # Optional: add a PROFILE_CARD_TOKEN secret (classic PAT, read:user) to
+          # count private contributions too. The default token sees public data.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARD_TOKEN || github.token }}
+        run: python3 .github/scripts/profile_card.py --user "${{ github.repository_owner }}" --out dist/profile-card.svg
+
+      - name: keep yesterday's card if today's failed
+        if: steps.card.outcome == 'failure'
+        run: |
+          mkdir -p dist
+          curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/profile-card.svg" -o dist/profile-card.svg \
+            || echo "::warning::no previous card to fall back on"
+
+      - name: generate the snake svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#FFC857&color_dots=#161B22,#0B3D4A,#146C82,#1EA8C4,#4DF0FF
+            dist/github-snake-light.svg?color_snake=#E09B00&color_dots=#EBEDF0,#B6EAF2,#6FD3E6,#1EA8C4,#0E7489
+
+      - name: push to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
